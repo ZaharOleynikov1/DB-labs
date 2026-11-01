@@ -192,8 +192,8 @@ JOIN products AS p
 
 
 SELECT DISTINCT
-    title,
-    price
+    title AS product_title,
+    price AS product_price
 FROM products
 ORDER BY price;
 
